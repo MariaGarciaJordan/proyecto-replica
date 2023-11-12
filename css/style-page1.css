@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+}
+
+body {
+    background-image: url('../images/background-p1.png');  
+    background-size: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.section-text {
+    text-align: center; 
+    color: gray;
+    margin-top: 50px;
+}
+
+.section-text h1 {
+    font-size: 3em; 
+    margin-bottom: 10px; 
+    color: black;
+}
+
+.download-btn {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.download-btn .btn button {
+    font-weight: 700;
+    color: #ffffff; 
+    padding: 9px 25px;
+    background: #ff556e;
+    border: solid 2px #ff556e;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    position: relative;
+}
+
+.download-btn .btn button::before {
+    margin-right: 5px;
+}
+
+.play-btn .btn button::before {
+    margin-right: 5px;
+}
+
+.download-btn .btn button:hover,
+.play-btn .btn button:hover {
+    background-color: #f7fafd;
+    color: #ff556e;
+    transform: scale(1.1);
+}
+
+.apple-icon {
+    font-family: 'SF Pro Display', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;
+    margin-right: 5px; 
+}
+.imagephone {
+    max-width: 40%;
+    height: 40%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.section-icons {
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.column {
+    flex: 0 0 23%;
+    margin-bottom: 15px;
+}
+
+.single-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .column {
+        flex: 0 0 48%; 
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    .column {
+        flex: 0 0 31%; 
+        max-width: 31%;
+    }
+}
+
+@media (min-width: 992px) {
+    .column {
+        flex: 0 0 23%;
+        max-width: 23%;
+    }
+}

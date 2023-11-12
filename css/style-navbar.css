@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(255, 254, 254);
+    background-color: #f7fafd;
 }
 
 @media (max-width: 768px) {
@@ -28,7 +28,7 @@ body {
     }
 }
 
-/* Estilos para tablets */
+
 @media (min-width: 601px) and (max-width: 1024px) {
     .header {
         padding: 5px 7%;
@@ -43,7 +43,7 @@ body {
     }
 }
 
-/* Estilos para ordenadores */
+
 @media (min-width: 1025px) {
     .header {
         padding: 5px 10%;
@@ -59,7 +59,7 @@ body {
 }
 
 .header {
-    background-color: rgb(255, 254, 254);
+    background-color: #f7fafd;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -113,7 +113,7 @@ body {
     font-weight: 700;
     color: #ff556e;
     padding: 9px 25px;
-    background: #fdfdfd;
+    background: #f7fafd;
     border: solid 2px;
     border-radius: 50px;
     border-color: #ff556e;
@@ -123,7 +123,7 @@ body {
 
 .header .btn button:hover {
     background-color: #ff556e;
-    color: #ffffff;
+    color: #f7fafd;
     transform: scale(1.1);
     
 }
