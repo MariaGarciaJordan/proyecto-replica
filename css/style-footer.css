@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: rgb(233, 233, 233);
+  color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 200px; 
+  padding-top: 35px;
+}
+
+.footer__container {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.container__menu--list {
+  list-style: none;
+  padding: 0;
+}
+
+.container__menu--link {
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+
+.icon-footer {
+  height: 15px;
+  width: auto;
+}
+
+.icon-social {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  height: 35px;
+  width: 35px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+      align-items: flex-start;
+  }
+
+  .footer__container {
+      max-width: 100%;
+  }
+
+  .icon-social {
+      align-self: center;
+  }
+}
