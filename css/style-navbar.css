@@ -118,14 +118,15 @@ body {
     border-radius: 50px;
     border-color: #ff556e;
     cursor: pointer;
-    transition: all 0.3s ease 0; 
+    transition: all 0.3s ease 0;
+    position: relative; /* Añade esta línea para ajustar el brillo */
 }
 
 .header .btn button:hover {
     background-color: #ff556e;
     color: #f7fafd;
     transform: scale(1.1);
-    
+    box-shadow: 0 0 20px rgba(255, 85, 110, 0.8); /* Añade esta línea para el efecto de brillo */
 }
 
 .dropdown {
@@ -146,6 +147,7 @@ body {
     padding: 16px 0 16px 0;
     text-decoration: none;
     display: block;
+    padding-left: 4px;
 }
 
 .dropdown-content a:hover {

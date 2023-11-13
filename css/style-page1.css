@@ -8,16 +8,23 @@
 }
 
 body {
-    background-image: url('../images/background-p1.png');  
+    background-image: url('../images/page1background.png');  
     background-size: 100%;
     background-position: center; 
     background-repeat: no-repeat;
 }
 
 .section-text {
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     color: gray;
-    margin-top: 50px;
+    margin: 50px 25px 5px 25px;
+}
+
+.main-text {
+    max-width: 72ch;
 }
 
 .section-text h1 {
@@ -28,20 +35,21 @@ body {
 
 .download-btn {
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin: 25px 10px 25px 10px;
 }
 
 .download-btn .btn button {
     font-weight: 700;
     color: #ffffff; 
     padding: 9px 25px;
+    margin: 0px 5px 0px 5px;
     background: #ff556e;
     border: solid 2px #ff556e;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0;
     position: relative;
+    text-transform: uppercase;
 }
 
 .download-btn .btn button::before {
@@ -63,13 +71,23 @@ body {
     font-family: 'SF Pro Display', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;
     margin-right: 5px; 
 }
-.imagephone {
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-5px, 5px); }
+    50% { transform: translate(5px, -5px); }
+    75% { transform: translate(5px, 5px); }
+    100% { transform: translate(-5px, -5px); }
+  }
+  
+  .imagephone {
     max-width: 40%;
     height: 40%;
     display: flex;
     margin: 0 auto;
     margin-top: 75px;
-}
+    animation: shake 0.5s ease-in-out infinite; /* 0.5s es la duración de la animación, ease-in-out es el tipo de aceleración, infinite hace que la animación se repita infinitamente */
+  }
 
 .section-icons {
     text-align: center;
@@ -96,6 +114,7 @@ body {
 
 .column p {
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 @media (min-width: 600px) {
