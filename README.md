@@ -37,10 +37,17 @@ Interacción
 En total, hay varias interacciones que resolver:
 
 
-    El botón Download del navbar cambia de color, crece y brilla al pasar por él, más si clicas te lleva a la página principal de Factoriaf5.
-    Los otros dos botones de Download también crecen y cambian de color al pasar el curso por ellos y redirigen, igualmente, a Factoriaf5 .
-    En el hover de los botones Comprar ahora se debe incluir una transición que dejamos a vuestra elección (por ejemplo: color, tamaño, etc.).
-    En el footer, la sección de email al clicar nos redirige al correo oficial de Factoriaf5; también si al pasar el cursor por encima de los iconos de redes nos identifica la red social que es.
+    El botón Download del navbar cambia de color, crece y brilla al pasar por él, más si clicas te lleva 
+    a la página principal de Factoriaf5.
+    
+    Los otros dos botones de Download también crecen y cambian de color al pasar el curso por ellos y 
+    redirigen, igualmente, a Factoriaf5 .
+    
+    En el hover de los botones Comprar ahora se debe incluir una transición que dejamos a vuestra 
+    elección (por ejemplo: color, tamaño, etc.).
+    
+    En el footer, la sección de email al clicar nos redirige al correo oficial de Factoriaf5; también si 
+    al pasar el cursor por encima de los iconos de redes nos identifica la red social que es.
 
 
 Entrega
@@ -58,7 +65,9 @@ Competencias
     ●MANAGEMENT: Nuestros coders planifican y gestionan un proyecto digital a través de marcos de trabajo.
 
 
-    ●FUNCTIONAL TECHNICAL ANALYSIS: Nuestros coders son capaces de       conceptualizar de manera funcional un proyecto digital. Nuestros coders son capaces de explicar la solución adoptada y presentar el trabajo realizado.
+    ●FUNCTIONAL TECHNICAL ANALYSIS: Nuestros coders son capaces de conceptualizar de manera funcional un 
+    proyecto digital. Nuestros coders son capaces de explicar la solución adoptada y presentar el trabajo 
+    realizado.
 
 
     ● FRONT-END: Nuestros coders son capaces de crear una UI web estática y adaptable.
@@ -79,5 +88,4 @@ Competencias
     Documentación útil
     ● https://animista.net/
     ● https://www.w3schools.com/css/css3_animations.asp
-    ● https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_
-    Animations/Using_CSS_animations
+    ● https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
