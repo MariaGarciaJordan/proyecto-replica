@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Open sans', sans-serif;
-    font-size: 15px;
 }
 
 body {
@@ -87,6 +86,7 @@ body {
     margin-right: 20px;
     display: flex;
     justify-content: flex-end;
+    text-transform: uppercase;
 }
 
 .header .nav-links li {
@@ -119,14 +119,15 @@ body {
     border-color: #ff556e;
     cursor: pointer;
     transition: all 0.3s ease 0;
-    position: relative; /* Añade esta línea para ajustar el brillo */
+    position: relative;
+    text-transform: uppercase;
 }
 
 .header .btn button:hover {
     background-color: #ff556e;
     color: #f7fafd;
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(255, 85, 110, 0.8); /* Añade esta línea para el efecto de brillo */
+    box-shadow: 0 0 20px rgba(255, 85, 110, 0.8); 
 }
 
 .dropdown {

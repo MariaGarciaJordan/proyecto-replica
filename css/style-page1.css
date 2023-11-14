@@ -86,7 +86,7 @@ body {
     display: flex;
     margin: 0 auto;
     margin-top: 75px;
-    animation: shake 0.5s ease-in-out infinite; /* 0.5s es la duración de la animación, ease-in-out es el tipo de aceleración, infinite hace que la animación se repita infinitamente */
+    animation: shake 0.5s ease-in-out infinite; 
   }
 
 .section-icons {

@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+/* Contenedor principal que aplica flexbox */
+.book-container {
+    display: flex;
+}
+
+/* Estilo para la sección de texto */
+.organize-your-time {
+    max-width: 60%;
+    margin-bottom: 10px;
+}
+
+.organize-your-time h1 {
+    font-size: 3em; 
+    margin-bottom: 10px; 
+    color: black;
+}
+
+.organize-your-time p, ul {
+    line-height: 2;
+}
+
+/* Estilo para la lista dentro de la sección de texto */
+.list-organize-t {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-organize-t li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-imageorganize {
+    margin-bottom: 20px;
+}
+
+/* Estilo para la sección de imagen */
+.imageorganize {
+    max-width: 90%;
+    display: flex;
+}
+
+/* Ajustes específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    .book-container {
+        flex-direction: column; /* Cambia a una disposición de columna en dispositivos móviles */
+    }
+
+    .organize-your-time,
+    .imageorganize {
+        max-width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
