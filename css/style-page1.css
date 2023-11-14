@@ -96,6 +96,71 @@ body {
     margin-right: 30%;
 }
 
+.icon-identify-goals {
+    display: inline-block;
+    background-color: #ebe7fa;
+    border-radius: 50%; 
+    padding: 14px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border-color: #ebe7fa;
+    color: #aa7eec;
+    margin-bottom: 10px;
+}
+
+.icon-situation-analysis {
+    display: inline-block;
+    background-color: #daf4ef;
+    border-radius: 50%; 
+    padding: 14px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border-color: #daf4ef;
+    color: #1bca95; 
+    margin-bottom: 10px;
+}
+
+.icon-task-settings {
+    display: inline-block;
+    background-color: #f8e5ea;
+    border-radius: 50%; 
+    padding: 14px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border-color: #f8e5ea;
+    color: #fe556e; 
+    margin-bottom: 10px;
+}
+
+.icon-social-interaction {
+    display: inline-block;
+    background-color: #f8f1de;
+    border-radius: 50%; 
+    padding: 14px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border-color: #f8f1de;
+    color: #ffb310; 
+    margin-bottom: 10px;
+}
+
+.icon-get-things {
+    display: inline-block;
+    background-color: #e1f2fa;
+    border-radius: 50%; 
+    padding: 14px;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    border-color: #e1f2fa;
+    color: #4fb9e8; 
+    margin-bottom: 10px;
+}
+
 .row {
     display: flex;
     justify-content: space-around;
